@@ -25,7 +25,6 @@
 @media screen and (max-width: 1366px) {
   /*common*/
   .page {
-    /* padding: 0 75px; */
     max-width: 1366px;
   }
   .container {
@@ -73,9 +72,6 @@
   }
   .nav__link {
     margin: 0 5px;
-  }
-  .header__inner {
-    /* margin: 0 75px; */
   }
   /*intro*/
   .intro {
@@ -201,12 +197,6 @@
         -ms-flex-order: 3;
             order: 3;
   }
-  /* .desk__image {
-        position: absolute;
-        top: -50px;
-        width: 55%;
-        margin-left: 80px;
-    } */
   .desk__image--mobile {
     display: unset;
     width: 100%;
@@ -450,13 +440,6 @@
   .help-desk {
     margin-bottom: 80px;
   }
-  /* .desk__image--mobile {
-        display: block;
-    }
-
-    .desk__image {
-        display: none;
-    } */
   .section__header--help-disk {
     max-width: 452px;
   }

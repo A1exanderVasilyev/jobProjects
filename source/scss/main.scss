@@ -771,7 +771,7 @@ img {
 .form-demo__inputs {
     display: flex;
     flex-flow: column nowrap;
-    gap: 24px;
+    /* gap: 24px; */
     margin-bottom: 24px;
 }
 
@@ -784,6 +784,7 @@ img {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    margin-top: 24px;
     
     &::placeholder {
         color: #9B9DAA;
@@ -792,6 +793,29 @@ img {
     &:hover {
         border: 1px solid #9B9DAA;
     }
+}
+
+.input__error {
+    border: 1px solid #FF004D;
+    z-index: 2;
+}
+
+.checkbox__error {
+    border: 1px solid #FF004D!important;
+    z-index: 2;
+}
+
+.error-text {
+    display: none;
+}
+
+.error-text.active {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FF004D;
+    margin-top: 8px;
 }
 
 .agreement {
